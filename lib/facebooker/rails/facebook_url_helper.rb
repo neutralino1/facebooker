@@ -140,7 +140,7 @@ module ActionView
         end
       end
 
-      alias_method_chain :add_confirm_to_attributes!, :facebooker
+      #alias_method_chain :add_confirm_to_attributes!, :facebooker
 
       def convert_options_to_css(options)
         key_pair = options.shift
